@@ -1,0 +1,16 @@
+1)open the folder in Vs Code
+2)open the terminals for server and clients
+3)In the server terminal write:
+     javac Server.java
+4)press enter
+5)then write the command:
+    java Server
+
+6)do the same for client:
+
+    javac Client.java
+    java Client
+
+ as of now there is some synchronisation problem because of which the one prisoner's message is not broadcasted 
+ but it works perfectly with one client at a time and no.of clients can join as many as you want .
+ it does not close the server until we close the terminal.I have purposefully kept it this way but this can be modified.
